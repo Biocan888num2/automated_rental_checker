@@ -86,7 +86,7 @@ def reformat_address(addr):
 # ***********************************
 
 
-# Get all HTML from the empire website url👇
+# Get all HTML from the empire website url
 response = requests.get(ZILLOW_URL)
 zillow_page = response.text
 
